@@ -1,6 +1,15 @@
-config.yaml
-/env
+*.class
 
 
-D:\example-api-authz-python-master\example-api-authz-python-master>opa_windows_a
-md64.exe run -s example.rego
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# node
+venv/
+__MACOSX/
+.idea
+
+*.log
